@@ -127,7 +127,6 @@ void ajouter_a_boite_dialogue(BoiteDialogue*dialogue,GtkWidget*element , gint x 
 void ajouter_button_boide_dialogue(BoiteDialogue*dialogue,gchar*libelle,gint reponse){
     if(dialogue && libelle)
              gtk_dialog_add_button(GTK_DIALOG(dialogue->dialogue),libelle,reponse);
-
 }
 
 void on_button_clicked(GtkWidget *widget, gpointer data) {
