@@ -17,7 +17,7 @@ typedef struct {
 
 
 // Fonction pour créer et initialiser une structure Saisie
-Saisie *creer_initialiser_saisie(gchar *placeholder, gint longueur_max, gfloat alignement_x, gint visible, gint caractere_visible, guchar carac_vis, gint w, gint h, gint etat, gchar *couleur_fond) {
+Saisie *creer_initialiser_saisie(gchar *placeholder, gint longueur_max, gfloat alignement_x, gint visible, gint caractere_visible, guchar carac_vis, gint w, gint h, gchar *couleur_fond) {
     // Allouer de la mémoire pour la structure Saisie
     Saisie *saisie = (Saisie *)g_malloc(sizeof(Saisie));
     if (!saisie) { // Vérifier si l'allocation de mémoire a réussi
@@ -88,12 +88,11 @@ void definir_attributs_saisie(Saisie *e) {
 
 }
 
-void Add_Entry(GtkWidget*fixed,gchar *placeholder, gint longueur_max, gfloat alignement_x, gint visible, gint caractere_visible, guchar carac_vis, gint w, gint h, gint etat, gchar *couleur_fond,gint x ,gint y)
+void Add_Entry(GtkWidget*fixed,gchar *placeholder, gint longueur_max, gfloat alignement_x, gint visible, gint caractere_visible, guchar carac_vis, gint w, gint h, gchar *couleur_fond,gint x ,gint y)
 {
-    Saisie *E=creer_initialiser_saisie(placeholder,longueur_max,alignement_x,visible,caractere_visible,carac_vis,w,h,etat,couleur_fond);
+    Saisie *E=creer_initialiser_saisie(placeholder,longueur_max,alignement_x,visible,caractere_visible,carac_vis,w,h,couleur_fond);
     definir_attributs_saisie(E);
     gtk_fixed_put(GTK_FIXED(fixed),E->entree,x,y);
 }
-
 
 #endif // ENTRY_H_INCLUDED
