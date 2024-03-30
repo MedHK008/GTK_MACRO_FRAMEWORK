@@ -29,8 +29,8 @@
 //#include "tool_bar.h"
 
 
-//#include "boite_dialog.h"
-//#include "entry.h"
+#include "boite_dialog.h"
+#include "entry.h"
 //
 //
 //#include "menu.h"

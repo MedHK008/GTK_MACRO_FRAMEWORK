@@ -40,7 +40,7 @@ GtkWidget* exemple()
     //    char *labels2[NB_RADIO] = {"Option 1", "Option 2", "Option 3"};
     //    char *colors2[NB_RADIO] = {"#FFFFFF", "#FFFFFF", "#FFFFFF"};
     //    gboolean checked2[NB_RADIO] = {FALSE, FALSE, FALSE};
-        GtkWidget *radioBox = add_radio(3, 20, 20, (char *[]){"Option 1", "Option 2", "Option 3"},(char *[]){NULL}, (gboolean[]){TRUE, FALSE, FALSE},(gchar *[]){"radio1", "radio2", "radio3"});
+        GtkWidget *radioBox = add_radio(3, 20, 30, (char *[]){"Option 1", "Option 2", "Option 3"},(char *[]){"#FF00FF","#00FF00","#FFFF00"}, (gboolean[]){TRUE, FALSE, FALSE},(gchar *[]){"radio1", "radio2", "radio3"});
         add_widget_to_fixed(fixed0,radioBox,200,450);
     /****************************************************** les radios***********************************/
     /****************************************************** les spins***********************************/
@@ -51,6 +51,8 @@ GtkWidget* exemple()
         add_widget_to_fixed(fixed0,spin->SpinButton,200,600);
     /****************************************************** les spins***********************************/
     /***********************************************les bouttons fin*****************************************/
+
+
     return ((GtkWidget*)fixed0->fixed);
 }
 #endif // EX_BUTTONS_H_INCLUDED
