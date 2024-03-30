@@ -46,7 +46,7 @@ radio* grouper_radio(elem_radio *L, GtkWidget *parent) {
     radioButtons->parent = parent;
     return radioButtons;
 }
-
+///hove : 0 si horizontale 1 si verticale
 void create_radio(radio *R, gint x, gint y) {
     GtkWidget *first_radio = NULL; // Pour conserver une référence au premier bouton radio
     while (R->liste) {
@@ -69,13 +69,15 @@ void create_radio(radio *R, gint x, gint y) {
 }
 
 
-GtkWidget* add_radio(int numButtons, gint x, gint y, char *labels[], char *colors[], gboolean checked[],gchar* name[]) {
+GtkWidget* add_radio(int numButtons, gint x, gint y, char *labels[], char *colors[], gboolean checked[],gchar* name[],gboolean orientation) {
     elem_radio *liste_radio = NULL;
+    GtkWidget *box = NULL;
     for (int i = 0; i < numButtons; i++) {
         liste_radio = ajouter_radio_fin(liste_radio, labels[i], colors[i], checked[i],name[i]);
     }
     radio *grouped_radio = grouper_radio(liste_radio, NULL);
-    GtkWidget *box = gtk_box_new(GTK_ORIENTATION_VERTICAL, 5);
+    if (orientation)box = gtk_box_new(GTK_ORIENTATION_VERTICAL,5);
+    else box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL,5);
     GtkWidget *first_radio = NULL;
     while (grouped_radio->liste) {
         grouped_radio->liste->pRadio = gtk_radio_button_new_with_label_from_widget(GTK_RADIO_BUTTON(first_radio), grouped_radio->liste->label);
