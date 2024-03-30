@@ -121,10 +121,14 @@ BoiteDialogue* Add_boite_dialogue(GtkWindow *parent, gchar *titre, gchar *icone,
 }
 // Fonction pour ajouter un bouton à une boîte de dialogue
 void ajouter_a_boite_dialogue(BoiteDialogue*dialogue,GtkWidget*element , gint x , gint y) {
-    if (dialogue && element) // Vérifier si le libellé du bouton et la boîte de dialogue sont définis
+    if (dialogue && element) 
         gtk_fixed_put(GTK_FIXED(dialogue->zone_contenu),element,x,y); // Ajouter un bouton avec le libellé spécifié et la réponse associée à la boîte de dialogue
 }
+void ajouter_button_boide_dialogue(BoiteDialoge*dialogue,gchar*libelle,gint reponse){
+    if(dialogue && libelle)
+             gtk_dialog_add_button(GTK_DIALOG(BD->boite),libelle,repose);
 
+}
 
 void on_button_clicked(GtkWidget *widget, gpointer data) {
     gtk_widget_show_all(GTK_WIDGET(data));
