@@ -3,10 +3,7 @@
 
 
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <gtk/gtk.h>
+
 
 
 
@@ -82,6 +79,8 @@ void create_window(Fenetre *W)
     if (W->titre)
         gtk_window_set_title(GTK_WINDOW(W->window), W->titre);
 
+    if(W->name)
+       gtk_widget_set_name(W->window,W->name);
     // Ajoutez l'icône s'il existe
     if (W->icon)
         gtk_window_set_icon_from_file(GTK_WINDOW(W->window), W->icon, NULL);
