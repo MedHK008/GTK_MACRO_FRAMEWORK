@@ -123,11 +123,4 @@ void declencher_boite_message(Boite_message*BM,GtkWidget*button)
 
 
 
-void declencher_boite_message(Boite_message*BM,GtkWidget*button)
-{
-    g_signal_connect(button, "clicked", G_CALLBACK(on_button_clicked_Boite_Message), BM->message_box);
-
-}
-
-
 #endif // BOITE_MESSAGE_H_INCLUDED

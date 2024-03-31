@@ -18,7 +18,10 @@ int main(int argc, char *argv[]) {
     declencher_boite_message(BM,B1->button);
     Add_Entry(BM->fixed,"fuck",500,0,0,1,'*',200,50,"#FFFFFF",100,100);
 
-
+    ComboBox *combobox = add_comboBox(fixed->fixed, "SEXE:", 600, 300);
+    combobox_add(combobox, " ");
+    combobox_add(combobox, "Femme");
+    combobox_add(combobox, "Homme");
 
 
     ///matqissch hadchi li mor had lcomment
