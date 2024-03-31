@@ -35,46 +35,32 @@ Boite_message*set_attribue(Boite_message*BM,GtkWidget*parent ,gchar*titre ,gint 
 {
      if(titre)
     {
-
-
-    BM->titre=(gchar*)g_malloc(sizeof(gchar)*50);
-    strcpy(BM->titre,titre);
+        BM->titre=(gchar*)g_malloc(sizeof(gchar)*50);
+        strcpy(BM->titre,titre);
     }
-if(color)
+    if(color)
     {
-
-
-    BM->color=(gchar*)g_malloc(sizeof(gchar)*50);
-    strcpy(BM->color,color);
+        BM->color=(gchar*)g_malloc(sizeof(gchar)*50);
+        strcpy(BM->color,color);
     }
     if(icon)
     {
-
-
-    BM->icon=(gchar*)g_malloc(sizeof(gchar)*50);
-    strcpy(BM->icon,icon);
+        BM->icon=(gchar*)g_malloc(sizeof(gchar)*50);
+        strcpy(BM->icon,icon);
     }
-
-
-    BM->parent=parent;
-
-
-    BM->modal=modal;
+        BM->parent=parent;
+        BM->modal=modal;
     if(h>0 && w>0)
     {
         BM->h=h;
         BM->w=w;
     }
-
-
     return BM;
 
 
 }
 // Fonction pour définir les attributs de la boîte de message
 void definir_attribut_boite_message(Boite_message *BM) {
-
-
     BM->message_box = gtk_message_dialog_new(GTK_WINDOW(BM->parent),
                                              GTK_DIALOG_MODAL,GTK_MESSAGE_INFO,GTK_BUTTONS_NONE
                                              ,NULL, NULL);
@@ -129,7 +115,10 @@ void on_button_clicked_Boite_Message(GtkWidget *widget, gpointer data) {
     gtk_widget_show_all(GTK_WIDGET(data));
 }
 
+void declencher_boite_message(Boite_message*BM,GtkWidget*button)
+{
+    g_signal_connect(button, "clicked", G_CALLBACK(on_button_clicked_Boite_Message), BM->message_box);
 
-
+}
 
 #endif // BOITE_MESSAGE_H_INCLUDED

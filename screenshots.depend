@@ -3509,10 +3509,10 @@
 
 1711730349 c:\users\hkmed\downloads\screenshots-gtk_file\ex_buttons.h
 
-1711808114 source:e:\screenshots-gtk_file\main.c
+1711920328 source:e:\screenshots-gtk_file\main.c
 	"headers.h"
 
-1711807335 e:\screenshots-gtk_file\headers.h
+1711919203 e:\screenshots-gtk_file\headers.h
 	<gtk/gtk.h>
 	<gdk/gdk.h>
 	<stdio.h>
@@ -3543,18 +3543,14 @@
 
 1711800976 e:\screenshots-gtk_file\spin_button.h
 
-1711800976 e:\screenshots-gtk_file\window.h
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<gtk/gtk.h>
+1711919203 e:\screenshots-gtk_file\window.h
 
 1711800976 e:\screenshots-gtk_file\onglet.h
 	<gtk/gtk.h>
 
 1711800976 e:\screenshots-gtk_file\fixed.h
 
-1711808851 e:\screenshots-gtk_file\ex_buttons.h
+1711809025 e:\screenshots-gtk_file\ex_buttons.h
 
 1711808114 source:c:\users\hkmed\onedrive\bureau\screenshots-gtk_file-main\main.c
 	"headers.h"
@@ -3607,7 +3603,7 @@
 
 1711800976 c:\users\hkmed\onedrive\bureau\screenshots-gtk_file-main\entry.h
 
-1711808468 e:\screenshots-gtk_file\boite_dialog.h
+1711920120 e:\screenshots-gtk_file\boite_dialog.h
 
 1711800976 e:\screenshots-gtk_file\entry.h
 
