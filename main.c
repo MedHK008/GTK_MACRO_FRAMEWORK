@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
     combobox_add(combobox, " ");
     combobox_add(combobox, "Femme");
     combobox_add(combobox, "Homme");
+    Add_Entry(fixed->fixed,"fuck",500,0,0,1,'*',200,50,"#FFFFFF",200,100);
 
 
     ///matqissch hadchi li mor had lcomment
