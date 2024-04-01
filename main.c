@@ -5,11 +5,11 @@
 
 int main(int argc, char *argv[]) {
     debut_programme(argc,argv);
-    Fenetre* ma_fenetre = add_window("fuck","gtklogo.png","fuck you","#FFFFFF",3840,2160,GTK_WIN_POS_CENTER,10,10,1,TRUE);
+    Fenetre* ma_fenetre = add_window("fuck","gtklogo.png","fuck you","#FFFFFF",1000,800,GTK_WIN_POS_CENTER,10,10,1,TRUE);
 
     Fixed* fixed = exemple();
 
-
+    add_scrollbar(ma_fenetre->window,fixed->fixed,200,100,GTK_POLICY_ALWAYS,GTK_POLICY_ALWAYS);
     ButtonSimple* B1=add_button("fff","fff",NULL,50,40,NULL,NULL,NULL);
     add_widget_to_fixed(fixed,B1->button,400,400);
     Boite_message* BM=Add_Boite_Message(ma_fenetre->window,"BM",0,NULL,NULL,300,100);
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 
 
     ///matqissch hadchi li mor had lcomment
-    add_to_window(fixed->fixed,ma_fenetre->window);
+//    add_to_window(fixed->fixed,ma_fenetre->window);
     gtk_widget_show_all(ma_fenetre->window);
 
 

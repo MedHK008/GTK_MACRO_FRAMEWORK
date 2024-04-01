@@ -3509,10 +3509,10 @@
 
 1711730349 c:\users\hkmed\downloads\screenshots-gtk_file\ex_buttons.h
 
-1711926421 source:e:\screenshots-gtk_file\main.c
+1711933291 source:e:\screenshots-gtk_file\main.c
 	"headers.h"
 
-1711926403 e:\screenshots-gtk_file\headers.h
+1711933306 e:\screenshots-gtk_file\headers.h
 	<gtk/gtk.h>
 	<gdk/gdk.h>
 	<stdio.h>
@@ -3523,6 +3523,7 @@
 	"radio.h"
 	"spin_button.h"
 	"label.h"
+	"scrollbar.h"
 	"combobox.h"
 	"boite_dialog.h"
 	"entry.h"
@@ -3609,4 +3610,6 @@
 1711800976 e:\screenshots-gtk_file\entry.h
 
 1711926318 e:\screenshots-gtk_file\combobox.h
+
+1711800976 e:\screenshots-gtk_file\scrollbar.h
 

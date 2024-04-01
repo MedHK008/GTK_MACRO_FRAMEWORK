@@ -25,7 +25,7 @@
 //#include "prog_bar.h"
 #include "label.h"
 //#include "frame.h"
-//#include "scrollbar.h"
+#include "scrollbar.h"
 //#include "tool_bar.h"
 #include "combobox.h"
 
