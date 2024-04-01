@@ -31,13 +31,7 @@ Saisie *creer_initialiser_saisie(gchar *placeholder, gint longueur_max, gfloat a
             exit(0); // Quitter le programme avec un code d'erreur
         }
     }
-    if (couleur_fond) { // Vérifier si le paramètre couleur_fond est défini
-        saisie->couleur_fond = g_strdup(couleur_fond); // Dupliquer la couleur de fond
-        if (!saisie->couleur_fond) { // Vérifier si la duplication a réussi
-            printf("\nERREUR\n"); // Afficher un message d'erreur
-            exit(0); // Quitter le programme avec un code d'erreur
-        }
-    }
+    saisie->couleur_fond = g_strdup(couleur_fond); // Dupliquer la couleur de fond
 
     // Initialiser les autres attributs de la structure Saisie
     saisie->hauteur = h; // Hauteur de la zone de saisie
@@ -54,8 +48,8 @@ Saisie *creer_initialiser_saisie(gchar *placeholder, gint longueur_max, gfloat a
 void definir_attributs_saisie(Saisie *e) {
      GdkRGBA couleur;
     e->entree = gtk_entry_new(); // Créer une nouvelle zone de saisie GTK
-    gdk_rgba_parse(&couleur, e->couleur_fond); // Convertir la couleur de fond en format GTK
-
+    if (e->couleur_fond)
+        gdk_rgba_parse(&couleur, e->couleur_fond); // Convertir la couleur de fond en format GTK
     // Définir le texte de substitution de la zone de saisie
     gtk_entry_set_placeholder_text(GTK_ENTRY(e->entree), e->placeholder);
     // Définir la longueur maximale de la saisie
