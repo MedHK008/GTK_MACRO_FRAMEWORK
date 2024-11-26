@@ -1,5 +1,4 @@
-#ifndef COMBOBOX_H_INCLUDED
-#define COMBOBOX_H_INCLUDED
+#include <gtk/gtk.h>
 
 // Structure de la combobox
 typedef struct {
@@ -26,14 +25,14 @@ ComboBox *init_combobox(GtkWidget *pere, gchar *nom, gint x, gint y) {
     return cb;
 }
 
-// Fonction de création de la combobox
+// Fonction de crï¿½ation de la combobox
 void create_combobox(ComboBox *cb) {
     cb->comboBox = gtk_combo_box_text_new();
     gtk_widget_set_name(cb->comboBox, cb->nom);
     gtk_fixed_put(GTK_FIXED(cb->container), cb->comboBox, cb->posx, cb->posy);
 }
 
-// Fonction d'ajout d'un élément à la combobox
+// Fonction d'ajout d'un ï¿½lï¿½ment ï¿½ la combobox
 void combobox_add(ComboBox *cb, gchar *text) {
     gtk_combo_box_text_append(GTK_COMBO_BOX_TEXT(cb->comboBox), NULL, text);
     gtk_combo_box_set_active(GTK_COMBO_BOX(cb->comboBox), 0);
@@ -45,7 +44,7 @@ ComboBox* add_comboBox(GtkWidget *pere, gchar *nom, gint x, gint y)
     create_combobox(combobox);
     return ((ComboBox*)combobox);
 }
-// Fonction de récupération du texte de l'élément sélectionné dans la combobox
+// Fonction de rï¿½cupï¿½ration du texte de l'ï¿½lï¿½ment sï¿½lectionnï¿½ dans la combobox
 gchar *combobox_get(ComboBox *cb) {
     return gtk_combo_box_text_get_active_text(GTK_COMBO_BOX_TEXT(cb->comboBox));
 }

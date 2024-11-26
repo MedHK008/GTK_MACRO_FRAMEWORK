@@ -1,5 +1,4 @@
-#ifndef ENTRY_H_INCLUDED
-#define ENTRY_H_INCLUDED
+#include <gtk/gtk.h>
 
 // Structure représentant une zone de saisie
 typedef struct {

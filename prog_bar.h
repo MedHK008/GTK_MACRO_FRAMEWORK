@@ -1,5 +1,4 @@
-#ifndef PROG_BAR_H_INCLUDED
-#define PROG_BAR_H_INCLUDED
+
 
 typedef struct
 {

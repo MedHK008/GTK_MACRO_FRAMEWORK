@@ -3,7 +3,7 @@
 
 
 typedef struct _Onglet {
-  GtkWidget *onglet; // Le widget onglet lui-même
+  GtkWidget *onglet; // Le widget onglet lui-mï¿½me
   char *titre; // Le titre de l'onglet
   GtkWidget *contenu; // Le contenu de l'onglet
   gboolean actif; // Indique si l'onglet est actif
@@ -13,13 +13,13 @@ Onglet *onglet_nouveau(const char *titre, GtkWidget *contenu) {
   Onglet *onglet = malloc(sizeof(Onglet));
   onglet->titre = strdup(titre); // Allocate memory for titre and copy the title string
 
-  // Créer le widget onglet
+  // Crï¿½er le widget onglet
   onglet->onglet = gtk_notebook_new();
 
-  // Définir le contenu de l'onglet
+  // Dï¿½finir le contenu de l'onglet
   gtk_container_add(GTK_CONTAINER(onglet->onglet), contenu);
 
-  // Définir l'onglet comme inactif par défaut
+  // Dï¿½finir l'onglet comme inactif par dï¿½faut
   onglet->actif = FALSE;
 
   return onglet;
@@ -35,7 +35,7 @@ const char *onglet_get_titre(Onglet *onglet) {
   return onglet->titre;
 }
 
-// Fonction pour définir le titre de l'onglet
+// Fonction pour dï¿½finir le titre de l'onglet
 void onglet_set_titre(Onglet *onglet, const char *titre) {
   free(onglet->titre); // Free previous titre
   onglet->titre = strdup(titre); // Allocate memory for new titre and copy the title string
@@ -54,9 +54,6 @@ void onglet_activer(Onglet *onglet) {
   onglet->actif = TRUE;
   gtk_notebook_set_current_page(GTK_NOTEBOOK(onglet->onglet), 0); // Set current page to the first page (index 0)
 }
-
-
-#include <gtk/gtk.h>
 
 void add_onglet(GtkWidget* notebook, GtkWidget* fixed, gchar* label, const char* bgcolor) {
     // Create a label widget with the specified text

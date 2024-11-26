@@ -1,5 +1,9 @@
-#ifndef EX_BUTTONS_H_INCLUDED
-#define EX_BUTTONS_H_INCLUDED
+#include "boutton_normal.h"
+#include "cocher.h"
+#include "radio.h"
+#include "spin_button.h"
+#include "label.h"
+#include "fixed.h"
 
 Fixed* exemple()
 {
@@ -14,7 +18,7 @@ Fixed* exemple()
 
     /******************************************************boutton normal***********************************/
     /****************************************************** les cochers***********************************/
-    /// les parametres : le fixed , le label , le x , le y ,le bgcolor, si le checkbox est cocher dès le début ou non
+    /// les parametres : le fixed , le label , le x , le y ,le bgcolor, si le checkbox est cocher dï¿½s le dï¿½but ou non
         texte* txt_cocher=initialiser_texte(20,30,"exemple des bouttons a cocher",3,"Verdana",12,"italic",NULL,"#000000","#FFFFFF",NULL);
         add_label(fixed0->fixed,txt_cocher,TRUE,FALSE,50,280);
         // Initialize the checkbox list
@@ -34,7 +38,7 @@ Fixed* exemple()
 
     /****************************************************** les cochers***********************************/
     /****************************************************** les radios***********************************/
-    /// les parametres : le fixed  , le x , le y , les labels,le bgcolor de chaque button, le radio qui soit cocher dès le début (all FALSE signifie que aucun ne sera cocher)
+    /// les parametres : le fixed  , le x , le y , les labels,le bgcolor de chaque button, le radio qui soit cocher dï¿½s le dï¿½but (all FALSE signifie que aucun ne sera cocher)
         texte* txt_radio=initialiser_texte(20,30,"exemple des bouttons radio",3,"Verdana",12,"italic",NULL,"#000000","#FFFFFF",NULL);
         add_label(fixed0->fixed,txt_radio,TRUE,FALSE,50,430);
     //    char *labels2[NB_RADIO] = {"Option 1", "Option 2", "Option 3"};
@@ -54,4 +58,3 @@ Fixed* exemple()
     /***********************************************les bouttons fin*****************************************/
     return ((Fixed*)fixed0);
 }
-#endif // EX_BUTTONS_H_INCLUDED

@@ -1,9 +1,8 @@
-#ifndef COCHER_H_INCLUDED
-#define COCHER_H_INCLUDED
+
 
 typedef struct coche {
     GtkWidget *parent;  // le widget parent
-    gchar *label;       // Le nom du bouton à cocher;
+    gchar *label;       // Le nom du bouton ï¿½ cocher;
     gchar *name;
     GtkWidget *boutcoche;
     gint x;
@@ -42,7 +41,7 @@ cocher *init_cocher(GtkWidget *parent, gchar *label, gint x, gint y, gchar *gui,
         gdk_color_parse(C->gui, &color);
         gtk_widget_modify_bg(C->boutcoche, GTK_STATE_NORMAL, &color);
     }
-    // Définir le nom du bouton (ID) pour le styliser en CSS
+    // Dï¿½finir le nom du bouton (ID) pour le styliser en CSS
     if (C->name)
         gtk_widget_set_name(C->boutcoche,C->name);
     // Set initial state of the check button

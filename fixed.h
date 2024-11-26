@@ -1,5 +1,4 @@
-#ifndef FIXED_H_INCLUDED
-#define FIXED_H_INCLUDED
+// Description: Functions to work with GtkFixed container.
 
 typedef struct {
     GtkWidget* fixed;  // Pointer to the GtkFixed container
