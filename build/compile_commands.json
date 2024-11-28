@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/CheckBox.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/CheckBox.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/CheckBox.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/CheckBox.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Combobox.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Combobox.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Combobox.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Combobox.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Entry.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Entry.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Entry.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Entry.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Fixed.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Fixed.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Fixed.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Fixed.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Frame.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Frame.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Frame.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Frame.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Image.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Image.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Image.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Image.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Label.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Label.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Label.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Label.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Menu.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Menu.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Menu.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Menu.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/MessageBox.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/MessageBox.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/MessageBox.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/MessageBox.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/ProgressBar.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/ProgressBar.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/ProgressBar.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/ProgressBar.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/RadioButton.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/RadioButton.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/RadioButton.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/RadioButton.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/ScrollBar.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/ScrollBar.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/ScrollBar.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/ScrollBar.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/SimpleButton.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/SimpleButton.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/SimpleButton.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/SimpleButton.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/SpinButton.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/SpinButton.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/SpinButton.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/SpinButton.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Tab.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Tab.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Tab.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Tab.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/ToolBar.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/ToolBar.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/ToolBar.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/ToolBar.c.o"
+},
+{
+  "directory": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/build",
+  "command": "/usr/bin/gcc -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/webp -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/home/killercon/Documents/GTK_MACRO_FRAMEWORK/headers -g   -pthread -o CMakeFiles/GTKMacroFramework.dir/src/Window.c.o -c /home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Window.c",
+  "file": "/home/killercon/Documents/GTK_MACRO_FRAMEWORK/src/Window.c",
+  "output": "CMakeFiles/GTKMacroFramework.dir/src/Window.c.o"
+}
+]

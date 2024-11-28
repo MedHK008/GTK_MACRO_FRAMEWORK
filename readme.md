@@ -32,7 +32,26 @@ typedef struct coche {
 - **gchar \*label**: This is a string that holds the label text for the checkbox.
 - **gchar \*name**: This is a string that holds the name (ID) of the checkbox, which can be used for styling with CSS.
 - **GtkWidget \*boutcoche**: This is a pointer to the actual GTK checkbox widget.
-- **gint x**: This is an integer representing the x-coordinate position of the checkbox.
-- **gint y**: This is an integer representing the y-coordinate position of the checkbox.
+- **gint x**: This is an integer representing the x-coordinate position of the checkbox (positon relative to the parent widget).
+- **gint y**: This is an integer representing the y-coordinate position of the checkbox (samr as gint x).
 - **gchar \*gui**: This is a string that holds the background color of the checkbox in HEX format (e.g., "#000000").
 - **struct coche \*next**: This is a pointer to the next checkbox in the linked list.
+
+
+```c
+typedef struct {
+    cocher *head; 
+} CheckboxList;
+```
+
+- **cocher \*head**: for the purpose of encapsulating the `checkBox`
+
+### Functions (Methods)
+
+So for the methods, we should have : 
+
+-**Initialisation function** :  since we are working with pointers, we should allow memory for each element in our structure, initialiase them with NULL too, this way we make sure that our widget exist in memory,
+
+-**Creation function** : this function is called after the initialisation, our purpose is to affest the values chosen by the user to the widget,the values are the ones mentionned in the structs of the widget.
+
+-**Add function** : this function is used upon the creation of the type in the program, it should be the only one of these three already mentionned that we can access in the program
