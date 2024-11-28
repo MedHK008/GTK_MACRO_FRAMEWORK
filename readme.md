@@ -304,6 +304,23 @@ Simply choose one langage to work with, i recomend english since the ressources 
 
 To take control of what is happening in your project, don't send your code in a text message in your whatsapp group please, Linus will be dissapointed.
 
-# Conclusion
+># Warning
+>Don't take this code because it is not made properly and trust me when i say that `THE` Professor will know that you copied it, he may even know that you copied it from mine, you need to do something similar to what i explained in this readme file.
 
-Don't take this code because it is not made properly and trust me when i say that `THE` Professor will know that you copied it, he may even know that you copied it from mine, but you need to do something similar to what i explained in this readme file.
+
+# ressources
+
+Installation process for gtk in codeblocks : 
+
+https://www.youtube.com/watch?v=zoH9jIj3Ldo&t=992s
+
+Gtk official documentation : 
+
+https://www.gtk.org/docs/
+
+Gtk non-official but good enough documentation : 
+
+https://devdocs.io/gtk~3.20/gtkbuttonbox
+
+
+
