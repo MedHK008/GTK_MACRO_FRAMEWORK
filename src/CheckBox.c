@@ -7,15 +7,16 @@ CheckboxList *init_checkbox_list() {
     return list;
 }
 
-cocher *init_cocher(GtkWidget *parent, gchar *label, gint x, gint y, gchar *gui, gboolean checked, gchar* name) {
+cocher *create_cocher(GtkWidget *parent, gchar *label, gint x, gint y, gchar *gui, gboolean checked, gchar* name) {
     cocher *C = (cocher *)malloc(sizeof(cocher));
     if (C == NULL) return NULL;
-    C->name = name;
-    C->parent = parent;
-    C->label = g_strdup(label);
+    init_cocher_elements(C);
+    if(name) C->name = name;
+    if(parent) C->parent = parent;
+    if(label) C->label = g_strdup(label);
+    if(x) C->x = x;
+    if(y) C->y = y;
     C->boutcoche = gtk_check_button_new_with_label(C->label);
-    C->x = x;
-    C->y = y;
     C->next = NULL;
 
     if (gui) {
@@ -29,6 +30,17 @@ cocher *init_cocher(GtkWidget *parent, gchar *label, gint x, gint y, gchar *gui,
     gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(C->boutcoche), checked);
 
     return C;
+}
+
+void init_cocher_elements(cocher *C) {
+    C->name = NULL;
+    C->parent = NULL;
+    C->label = NULL;
+    C->boutcoche = NULL;
+    C->x = 0;
+    C->y = 0;
+    C->gui = NULL;
+    C->next = NULL;
 }
 
 GtkWidget *add_cocher(CheckboxList *list, GtkWidget *parent, gchar *label, gint x, gint y, gchar *gui, gboolean checked, gchar* name) {
