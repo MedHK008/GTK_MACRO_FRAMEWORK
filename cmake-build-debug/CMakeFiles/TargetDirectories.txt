@@ -1,0 +1,3 @@
+/home/killercon/Documents/GTK_MACRO_FRAMEWORK/cmake-build-debug/CMakeFiles/GTKMacroFramework.dir
+/home/killercon/Documents/GTK_MACRO_FRAMEWORK/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/killercon/Documents/GTK_MACRO_FRAMEWORK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
