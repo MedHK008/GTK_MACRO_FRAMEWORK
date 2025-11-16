@@ -1,0 +1,3 @@
+/home/hades/GTK_MACRO_FRAMEWORK/build/CMakeFiles/GTKMacroFramework.dir
+/home/hades/GTK_MACRO_FRAMEWORK/build/CMakeFiles/edit_cache.dir
+/home/hades/GTK_MACRO_FRAMEWORK/build/CMakeFiles/rebuild_cache.dir

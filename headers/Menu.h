@@ -5,11 +5,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-guint DEFAULT_MENU = 0;
-guint CHECKBOX_MENU = 1;
-guint SEPARATOR_MENU = 2;
-guint IMAGE_MENU = 3;
-guint RADIO_MENU = 4;
+// Menu type constants - using static to avoid multiple definition errors
+static const guint DEFAULT_MENU = 0;
+static const guint CHECKBOX_MENU = 1;
+static const guint SEPARATOR_MENU = 2;
+static const guint IMAGE_MENU = 3;
+static const guint RADIO_MENU = 4;
 
 typedef struct Menu {
     GtkWidget *MENU;

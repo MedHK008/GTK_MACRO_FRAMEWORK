@@ -44,7 +44,7 @@ void init_cocher_elements(cocher *C) {
 }
 
 GtkWidget *add_cocher(CheckboxList *list, GtkWidget *parent, gchar *label, gint x, gint y, gchar *gui, gboolean checked, gchar* name) {
-    cocher *checkbox = init_cocher(parent, label, x, y, gui, checked, name);
+    cocher *checkbox = create_cocher(parent, label, x, y, gui, checked, name);
     if (checkbox == NULL) return NULL;
 
     checkbox->next = list->head;

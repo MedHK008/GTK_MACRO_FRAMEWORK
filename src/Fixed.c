@@ -1,4 +1,4 @@
-#include "fixed.h"
+#include "Fixed.h"
 
 Fixed* init_gtk_fixed() {
     Fixed* info = (Fixed*)malloc(sizeof(Fixed));  // Allocate memory for Fixed

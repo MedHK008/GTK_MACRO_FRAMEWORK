@@ -6,7 +6,7 @@
 void debut_programme(int argc,char*argv[]);
 void fin_programme(Fenetre* ma_fenetre);
 Fixed* exemple();
-void add_buttons();
+// void add_buttons();  // Commented out - unused and has broken code
 
 
 int main(int argc, char *argv[]) 
@@ -19,6 +19,12 @@ int main(int argc, char *argv[])
 
     /// Ajouter les widgets
     Fixed* fixed = exemple();
+    
+    /// Add the fixed container to the window
+    gtk_container_add(GTK_CONTAINER(ma_fenetre->window), fixed->fixed);
+    
+    /// Show all widgets
+    gtk_widget_show_all(ma_fenetre->window);
 
     /// Terminer le programme par la fermeture de la fenetre
     fin_programme(ma_fenetre);
@@ -90,54 +96,3 @@ Fixed* exemple()
     /***********************************************les bouttons fin*****************************************/
     return ((Fixed*)fixed0);
 }
-
-
-void add_buttons()
-{
-    /****************************************************** les bouttons***********************************/
-
-
-    /******************************************************boutton normal***********************************/
-    /// les parametres : le fixed , le label du button , path de l'image utiliser (NULL s'il y a pas d'image),height,width,bgcolor, x , y
-        add_label(fixed,txt_button,TRUE,FALSE,50,50);
-        add_button(fixed,"first",GTKLOGO,100,100,"#FF0000",50,100,50,50);
-        add_button(fixed,NULL,GTKLOGO,100,100,"#FF0000",290,100,150,150);
-    /******************************************************boutton normal***********************************/
-
-
-
-
-    /****************************************************** les cochers***********************************/
-    /// les parametres : le fixed , le label , le x , le y ,le bgcolor, si le checkbox est cocher d�s le d�but ou non
-        add_label(fixed,txt_cocher,TRUE,FALSE,50,250);
-        add_cocher(fixed,"testing cocher1",200,300,"#FFFFFF",TRUE);
-        add_cocher(fixed,"testing cocher2",200,330,"#FFFFFF",TRUE);
-        add_cocher(fixed,"testing cocher3",200,360,"#FFFFFF",TRUE);
-        add_cocher(fixed,"testing cocher4",200,390,"#FFFFFF",TRUE);
-    /****************************************************** les cochers***********************************/
-
-
-
-    /****************************************************** les radios***********************************/
-    /// les parametres : le fixed  , le x , le y , les labels,le bgcolor de chaque button, le radio qui soit cocher d�s le d�but (all FALSE signifie que aucun ne sera cocher)
-        add_label(fixed,txt_radio,TRUE,FALSE,50,450);
-        char *labels2[NB_RADIO] = {"Option 1", "Option 2", "Option 3"};
-        char *colors2[NB_RADIO] = {"#FFFFFF", "#FFFFFF", "#FFFFFF"};
-        gboolean checked2[NB_RADIO] = {FALSE, FALSE, FALSE};
-        add_radio(fixed, NB_RADIO,250,500, labels2, colors2,checked2);
-    /****************************************************** les radios***********************************/
-
-
-    /****************************************************** les spins***********************************/
-    ///khdem biha wskot mafiya li ykteb lcommentaire db
-        add_label(fixed,txt_spin,TRUE,FALSE,50,600);
-        add_spin(fixed, 50, 650, 0.0, 100.0, 1.0, 1.0, 30, 150, 1, 2, 1, 1, "#00ff00", 1.0);
-        add_spin(fixed, 250, 650, 0.0, 100.0, 50.0, 5.0, 30, 30, 1, 2, 1, 1, "#ff0000", 1.0);
-        add_spin(fixed, 450, 650, 0.0, 100.0, 100.0, 100.0, 50, 150, 1, 2, 1, 1, "#ffffff", 1.0);
-        add_Tab(notebook,fixed,"Tab 1","#FF00FF");
-    /****************************************************** les spins***********************************/
-
-
-    /***********************************************les bouttons fin*****************************************/
-}
-

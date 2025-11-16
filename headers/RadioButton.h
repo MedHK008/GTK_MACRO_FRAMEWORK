@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#define NBC 200  // Maximum number of characters for label
+
 typedef struct RadioButton {
     GtkWidget *pRadio;
     gchar* name;

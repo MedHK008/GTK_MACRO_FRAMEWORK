@@ -13,6 +13,6 @@ cmake_minimum_required(VERSION 3.10)
     include_directories(headers)
     file(GLOB SOURCES "src/*.c")
 
-    add_executable(GTKMacroFramework ${SOURCES})
+    add_executable(GTKMacroFramework ${SOURCES} main.c)
 
     target_link_libraries(GTKMacroFramework ${GTK3_LIBRARIES})

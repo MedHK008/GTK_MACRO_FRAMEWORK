@@ -2,16 +2,16 @@
 
 ProgressBar *initialiser_ProgressBar(GtkWidget *pere, gdouble dfr, gdouble unt, gint w, gint h)
 {
-    ProgressBar *ProgressBar = (ProgressBar *)g_malloc(sizeof(ProgressBar));
-    ProgressBar->widget = gtk_progress_bar_new();
-    ProgressBar->parent = pere;
-    ProgressBar->w = w;
-    ProgressBar->h = h;
-    if (ProgressBar->w || ProgressBar->h)
-        gtk_widget_set_size_request(ProgressBar->widget, ProgressBar->w, ProgressBar->h);
-    ProgressBar->unite = unt;
-    ProgressBar->fraction = dfr;
-    return ProgressBar;
+    ProgressBar *pb = (ProgressBar *)g_malloc(sizeof(ProgressBar));
+    pb->widget = gtk_progress_bar_new();
+    pb->parent = pere;
+    pb->w = w;
+    pb->h = h;
+    if (pb->w || pb->h)
+        gtk_widget_set_size_request(pb->widget, pb->w, pb->h);
+    pb->unite = unt;
+    pb->fraction = dfr;
+    return pb;
 }
 
 void progression_animation(ProgressBar *pWidget, gpointer data)

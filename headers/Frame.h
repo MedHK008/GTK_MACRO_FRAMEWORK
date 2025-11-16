@@ -2,6 +2,7 @@
 #define FRAME_H_INCLUDED
 
 #include <gtk/gtk.h>
+#include "Label.h"  // Required for 'texte' type definition
 
 // Structure pour représenter un cadre (frame) avec des éléments associés
 typedef struct
